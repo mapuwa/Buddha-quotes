@@ -74,6 +74,12 @@ document.getElementById("quote").innerHTML = getRandomQuote();
 
 document.getElementById("next-button").addEventListener("click", showNextQuote);
 
+document.getElementById("tweet-button").addEventListener("click", function () {
+    var text = "http://twitter.com/home/?status=\"" + document.getElementById("quote").innerHTML + "\" - Buddha";
+    var win = window.open(text, '_blank');
+    win.focus();
+});
+
 window.onkeydown = function (e) {
     var code = e.keyCode ? e.keyCode : e.which;
     switch(code) {
