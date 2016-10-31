@@ -57,6 +57,10 @@ var quotes = [
     "A man is not called wise because he talks and talks again; but if he is peaceful, loving and fearless then he is in truth called wise.",
     "Whatever a monk keeps pursuing with his thinking and pondering, that becomes the inclination of his awareness.",
     "Walk as if you are kissing the Earth with your feet.",
+    "Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship.",
+    "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. ",
+    "To enjoy good health, to bring true happiness to one's family, to bring peace to all, one must first discipline and control one's own mind. If a man can control his mind he can find the way to Enlightenment, and all wisdom and virtue will naturally come to him.",
+	"You will not be punished for your anger, you will be punished by your anger. ",
 ];
 
 function getRandomQuote() {
